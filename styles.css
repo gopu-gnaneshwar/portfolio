@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+/* Background Video */
+#bg-video {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.85) saturate(1.1);
+}
+
+/* Page */
+.page {
+  position: relative;
+}
+
+/* Glass Sections */
+.glass {
+  width: 100%;
+  margin: 80px 0;
+  padding: 80px 0;
+  background: rgba(15, 25, 40, 0.55);
+  backdrop-filter: blur(28px);
+  border-radius: 36px;
+  color: #f5f7fa;
+}
+
+/* Alignment Ruler */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Typography */
+.hero h1 {
+  font-size: 56px;
+}
+
+.role {
+  margin-top: 12px;
+  color: #ffffff;
+}
+
+.intro {
+  margin-top: 22px;
+  font-size: 18px;
+  max-width: 1000px;
+}
+
+/* Buttons */
+.cta {
+  margin-top: 36px;
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+.primary {
+  background: #ffffff;
+  color: #000000;
+}
+
+.secondary {
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+}
+
+/* Tag */
+.tag {
+  display: inline-block;
+  background: #000000;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+/* Skills */
+.skill-group {
+  margin-top: 36px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.chips span {
+  background: rgba(255,255,255,0.18);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* Blocks */
+.block {
+  margin-top: 30px;
+}
+
+.block a {
+  color: #8ab4ff;
+  text-decoration: none;
+}
+
+/* CGPA */
+.cgpa span {
+  font-size: 22px;
+  color: #ffd369;
+}
+
+/* Centered */
+.center {
+  text-align: center;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icons img {
+  width: 32px;
+  filter: invert(1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #ffffff;
+  margin: 80px 0;
+}
